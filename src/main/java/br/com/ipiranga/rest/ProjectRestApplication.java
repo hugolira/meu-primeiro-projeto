@@ -55,7 +55,7 @@ public class ProjectRestApplication {
 			empresas = empresaRepository.findAll();
 			System.out.println("Empresas: " + empresas.size());
 			
-		/*	System.out.println("Quanidade de elementos por pagina = " + this.qtdePagina);
+			System.out.println("Quanidade de elementos por pagina = " + this.qtdePagina);
 			
 			String senhaEncoded = SenhaUtils.geraBcrypt("123456");
 			System.out.println("Senha encoded = " + senhaEncoded);
@@ -63,7 +63,7 @@ public class ProjectRestApplication {
 			senhaEncoded = SenhaUtils.geraBcrypt("123456");
 			System.out.println("Senha encoded novamente = " + senhaEncoded);
 			
-			System.out.println("senha valida = " + SenhaUtils.senhaValida("123456", senhaEncoded));*/
+			System.out.println("senha valida = " + SenhaUtils.senhaValida("123456", senhaEncoded));
 			
 			
 		};
